@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation */
+nav {
+    background-color: #0d1b2a;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #00b4d8;
+}
+
+/* Homepage Layout */
+.home {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.left {
+    width: 60%;
+}
+
+.right {
+    width: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.club-logo {
+    width: 120px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.sub-text {
+    font-size: 16px;
+    color: gray;
+}
+
+.custom-link {
+    color: blue;
+}
+
+/* Popup */
+.popup {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.popup-content {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.close-btn {
+    float: right;
+    cursor: pointer;
+}
